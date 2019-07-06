@@ -1,6 +1,6 @@
-package com.demo.strategypattern;
+package com.demo.strategy;
 
-import com.demo.strategypattern.interfaces.QuackBehavior;
+import com.demo.strategy.interfaces.QuackBehavior;
 
 public class Quack implements QuackBehavior {
 

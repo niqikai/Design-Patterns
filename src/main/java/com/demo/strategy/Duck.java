@@ -1,7 +1,7 @@
-package com.demo.strategypattern;
+package com.demo.strategy;
 
-import com.demo.strategypattern.interfaces.FlyBehavior;
-import com.demo.strategypattern.interfaces.QuackBehavior;
+import com.demo.strategy.interfaces.FlyBehavior;
+import com.demo.strategy.interfaces.QuackBehavior;
 
 public abstract class Duck {
 

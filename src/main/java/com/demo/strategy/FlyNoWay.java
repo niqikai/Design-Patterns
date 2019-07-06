@@ -1,6 +1,6 @@
-package com.demo.strategypattern;
+package com.demo.strategy;
 
-import com.demo.strategypattern.interfaces.FlyBehavior;
+import com.demo.strategy.interfaces.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     @Override

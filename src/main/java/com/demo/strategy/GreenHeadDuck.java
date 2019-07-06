@@ -1,8 +1,9 @@
-package com.demo.strategypattern;
+package com.demo.strategy;
 
-import com.demo.strategypattern.interfaces.FlyBehavior;
 
-public class GreenHeadDuck extends Duck {
+
+
+public class GreenHeadDuck extends Duck  {
 
     public GreenHeadDuck() {
         quackBehavior = new Quack();
@@ -13,7 +14,6 @@ public class GreenHeadDuck extends Duck {
     public void display() {
         System.out.println("I'm green head duck");
     }
-
 
 
 }

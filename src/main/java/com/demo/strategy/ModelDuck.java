@@ -1,4 +1,4 @@
-package com.demo.strategypattern;
+package com.demo.strategy;
 
 public class ModelDuck extends Duck {
 
